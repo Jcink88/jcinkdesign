@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Bourbon+Grotesque&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Futura+LT+Pro&display=swap" rel="stylesheet" />
+
+    <!-- normalize and icon import -->
+    
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> 
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <title>JcInk Design</title>  
+ 
+<!--just found out the shortcut for commenting ctrl+k, ctrl+c 
+        i know it sounds stupid but because i wasnt really using comments before, i would just type out the beginning and end tags. lol-->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/JcInk Design White.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-lable="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav-link">Home</a> </li>
+                <li class="nav__item"><a href="#about" class="nav-link">About</a> </li>
+                <li class="nav__item"><a href="#what" class="nav-link">What i do</a> </li>
+                <li class="nav__item"><a href="#portfolio" class="nav-link">Portfolio</a> </li>
+                <li class="nav__item"><a href="Photography.html" class="nav-link">Photography</a> </li>
+                <li class="nav__item"><a href="#contact" class="nav-link">Contact</a> </li>
+            </ul>
+        </nav>
+    </header> 
+    
+    <!-- BEM, so using BEM to try it out. class names will have __ to show its a child of a black eg section__title. section is the main black and title is the child.
+    Pretty much the same goes for the --, it shows which block or element its modifying -->
+
+    <!-- Main and CTA -->
+    <section class="intro" id="home">
+        <div class="header">
+            <p class="header-text">
+            I'm <br> 
+            <span class="highlight">JOSE</span><br> 
+            graphic designer <br> & web developer</p>
+        </div>
+        <div class="text">
+            <p>I assist clients in creating digital products by taking their concepts and turning them into reality while maintaining high quality and functionality. Graphic design, user experience/interface design, branding, and web development are my areas of expertise. </p>
+            <a href="#contact" class="btn"> Get in touch!</a>
+        </div>
+        <img class="hero" src="images/IMG_20210526_002610_930.jpg" alt="picture of Jose">
+    </section>
+
+    <!-- About me -->
+    <section class="about me" id="about"> 
+        <h2 class="section__title section__title--services"> About Me</h2>
+            <p class="about">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus iusto atque ipsam in autem odio sed, impedit debitis earum aliquid dolorem quam aut illo officia et sit quod perferendis perspiciatis.
+            </p>
+    </section>
+
+
+    <!-- What i Do -->
+    <section class="what i do" id="what"> 
+        <h2 class="section__title section__title--what"> What i do</h2>
+            <div class="what i do sections">
+
+                <!-- these will be the 2 containers that house the types of work i do -->
+                <div class="do">
+                    <h3>Graphic design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam est vero veniam libero qui eum autem quam dicta ipsum corporis. Enim dolor suscipit in veritatis, esse saepe exercitationem eaque vitae?</p>
+                </div>
+
+                <div class="do">
+                    <h3>web development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus tempore velit, dolorum nostrum est labore iure quas magni dolores recusandae repudiandae nam error provident aliquid quo molestias amet! Accusamus, nulla.</p>
+                </div>
+
+                <!-- this will be thhe container below that houses the tools icons  -->
+                <div class="do">
+                    <h3>tools</h3>
+                    <p>this is a placeholder text for the tool icons</p>
+                </div>
+            </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="projects" id="portfolio">
+        <h2 class="section__title section_title--portfolio">Portfolio</h2>
+        <div class="portfolio__pieces">
+            <div class="piece00">
+                <h3 class="projects__title">Project 00</h3>
+                <p class="projects__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat porro culpa eum accusantium. Rerum in dolorum saepe natus ab recusandae, quidem pariatur voluptatem, odio, enim impedit aspernatur optio cum animi.
+                </p>
+                <a href="#" class="portfolio__item">
+                    <img src="images/project 00.png" alt="preview of project 00" class="portfolio__img">
+                </a>
+            </div>
+            <div class="piece01">
+                <h3 class="projects__title">Project 01</h3>
+                <p class="projects__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat porro culpa eum accusantium. Rerum in dolorum saepe natus ab recusandae, quidem pariatur voluptatem, odio, enim impedit aspernatur optio cum animi.
+                </p>
+                <a href="#" class="portfolio__item">
+                    <img src="images/project 01.png" alt="preview of project 01" class="portfolio__img">
+                </a>
+            </div>
+            <div class="piece02">
+                <h3 class="projects__title">Project 02</h3>
+                <p class="projects__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat porro culpa eum accusantium. Rerum in dolorum saepe natus ab recusandae, quidem pariatur voluptatem, odio, enim impedit aspernatur optio cum animi.
+                </p>
+                <a href="#" class="portfolio__item">
+                    <img src="images/project 02.png" alt="preview of project 02" class="portfolio__img">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="mailto:jcinkdesign@gmail.com" class="footer-link btn"> Lets Work togther!</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://www.behance.net/josecordero8">behance</a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://dribbble.com/jcink">dribbble</a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://www.instagram.com/jcinkdesign/">instagram</a></li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>  
