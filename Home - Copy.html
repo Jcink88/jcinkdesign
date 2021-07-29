@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Fonts -->
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/stylesheet - Copy.css">
     <link href="https://fonts.googleapis.com/css?family=Bourbon+Grotesque&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Futura+LT+Pro&display=swap" rel="stylesheet" />
 
@@ -21,8 +21,9 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="images/JcInk Design White.png" alt="">
+        <div>
+            <!-- <h1>JcInk Design</h1> -->
+            <img  class="logo"src="images/JcInk Design White.png" alt="">
         </div>
         <button class="nav-toggle" aria-lable="toggle navigation">
             <span class="hamburger"></span>
@@ -33,36 +34,33 @@
                 <li class="nav__item"><a href="#about" class="nav-link">About</a> </li>
                 <li class="nav__item"><a href="#what" class="nav-link">What I Do</a> </li>
                 <li class="nav__item"><a href="#portfolio" class="nav-link">Portfolio</a> </li>
-                <li class="nav__item"><a href="#photography" class="nav-link">Photography</a> </li>
+                <li class="nav__item"><a href="Photography.html" class="nav-link">Photography</a> </li>
                 <li class="nav__item"><a href="#contact" class="nav-link">Contact</a> </li>
             </ul>
-            <div class="social-bar">
-                <ul>
-                    <li><a href=https://www.instagram.com/jcinkdesign/><img src="images/instagram-logo.png" target="_blank" alt=""></a>   </li>
-                    <li><a href=https://dribbble.com/jcink><img src="images/dribbble-logo.png" target="_blank" alt=""></a></li>
-                    <li><a href=https://www.behance.net/josecordero8><img src="images/behance.png" target="_blank" alt=""></a></li>
-                    <li><a href=mailto:jcinkdesign@gmail.com><img src="images/at.png" alt=""></a></li>
-                </ul>
-            </div>
+        </div>
     </header> 
+
+    <div class="social-bar">                
+        <li><a href=https://www.instagram.com/jcinkdesign/><img class="social" src="images/instagram-logo.png" target="_blank" alt=""></a>   </li>
+        <li><a href=https://dribbble.com/jcink><img class="social" src="images/dribbble-logo.png" target="_blank" alt=""></a></li>
+        <li><a href=https://www.behance.net/josecordero8><img class="social" src="images/behance.png" target="_blank" alt=""></a></li>
+        <li><a href=mailto:jcinkdesign@gmail.com><img class="social" src="images/at.png" alt=""></a></li>
+    </div>
 
     <!-- BEM, so using BEM to try it out. class names will have __ to show its a child of a black eg section__title. section is the main black and title is the child.
     Pretty much the same goes for the --, it shows which block or element its modifying -->
 
     <!-- Main and CTA -->
     <section class="intro" id="home">
-        <img class="hero" src="images/IMG_20210526_002610_930.jpg" alt="picture of Jose">
+        <img class="hero" src="images/profile pic - will replace.jpg" alt="picture of Jose">
         <div class="header">
-            <p class="header-text">
+            <h1 class="header-text">
             I'm <br> 
             <span class="highlight">JOSE</span><br> 
-            graphic designer <br> & web developer</p>
-        </div>
-        <div class="text">
-            <p>I assist clients in creating digital products by taking their concepts and turning them into reality while maintaining high quality and functionality. Graphic design, user experience/interface design, branding, and web development are my areas of expertise. </p>
+            graphic designer <br> & web developer</h1>            
+            <p class="text">I assist clients in creating digital products by taking their concepts and turning them into reality while maintaining high quality and functionality. Graphic design, user experience/interface design, branding, and web development are my areas of expertise. </p>
             <a href="#contact" class="btn"> Get in touch!</a>
-        </div>
-       
+        </div>         
     </section>
 
     <!-- About me -->
@@ -142,7 +140,7 @@
         </ul>
     </footer>
 
-    <!-- <script src="js/index - Copy.js"></script> -->
+  <script src="js/index - Copy.js"></script>
 
 </body>
 </html>  
