@@ -330,7 +330,24 @@ header {
     padding-left: 3em;
 }
 
+
+/* Portfolio Section */
 .projects {
     display: grid;
-    min-height: fit-content;
+    height: 2000px;
+}
+
+.section__title.section_title--portfolio {
+    display: grid;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+/* Footer */
+footer {
+    display: block;
+    bottom: 0;
 }
