@@ -1,14 +1,4 @@
 
-html {
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    background: #222;
-}
-
 /* Custom */
 @font-face {
     font-family: 'Bourbon Grotesque Regular';
@@ -31,23 +21,13 @@ body {
 :root {
    --clr-dark: #262A35;
    --clr-accent: #FF4D5A;
-   --fs-h1: 3rem;
-   --fs-h2: 2.25rem;
-   --fs-h3: 1.25rem;
-   --fs-body: 1rem;
 }
 
-@media (min-width: 800px) {
-    :root {
-        --fs-h1: 4.5rem;
-        --fs-h2: 3.75rem;
-        --fs-h3: 1.5rem;
-        --fs-body:1.125rem;
-    }
-}
 
 /* General */
 html {
+    margin: 0;
+    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
@@ -55,11 +35,6 @@ body {
     background: var(--clr-dark);
     margin: 0;
     font-family: 'Futura LT Pro Medium';
-    /*
-    padding-top: 1em;
-    padding-left: 2em;
-    padding-right: 2em;
-    */
 }
 
 section {
@@ -103,12 +78,15 @@ img {
 /*  header */
 .logo {
     max-width: 50px;
+    margin-left: 150px;
+    margin-top: 8px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     padding: 1em;
+    height: 100px;
 }
 
 .nav {
@@ -153,7 +131,7 @@ header {
     cursor: pointer;
     position: absolute;
     right: 1em;
-    top: 1em;
+    top: 1.5em;
     z-index: 1000;
 }
 
