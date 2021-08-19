@@ -52,9 +52,8 @@ h3 {
 
 section {
     display: flex;
-    height: 100vh;
     align-items: center;
-    padding: 100px 100px 100px 100px ;
+    padding: 100px 100px 100px 100px;
 }
 
 h2 {
@@ -175,6 +174,7 @@ header {
 
 .intro {
     padding: 100px 100px 20px 150px ;
+    height: 100vh;
 }
 
 .header {
@@ -335,10 +335,13 @@ header {
 .projects {
     display: grid;
     height: 2000px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "project00" "project01" "project02";
 }
 
-.section__title.section_title--portfolio {
-    display: grid;
+.design-title {
+    display: flex;
     margin-bottom: 100px;
     justify-content: center;
     align-content: center;
